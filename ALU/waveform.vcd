@@ -1,0 +1,53 @@
+$date
+	Fri Aug 18 21:21:25 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_TB $end
+$var wire 16 ! result [15:0] $end
+$var wire 1 " lt $end
+$var reg 16 # op1 [15:0] $end
+$var reg 16 $ op2 [15:0] $end
+$var reg 1 % operation $end
+$scope module uut $end
+$var wire 16 & op1 [15:0] $end
+$var wire 16 ' op2 [15:0] $end
+$var wire 1 % operation $end
+$var reg 1 " lt $end
+$var reg 16 ( result [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1001111 (
+b101101 '
+b100010 &
+1%
+b101101 $
+b100010 #
+z"
+b1001111 !
+$end
+#5000
+1"
+bz !
+bz (
+0%
+#10000
+z"
+b1100100 !
+b1100100 (
+b110111 #
+b110111 &
+1%
+#15000
+0"
+bz !
+bz (
+0%
+#20000

@@ -1,0 +1,62 @@
+$date
+	Fri Aug 18 21:05:39 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module MUX41_TB $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " i0 [15:0] $end
+$var reg 16 # i1 [15:0] $end
+$var reg 16 $ i2 [15:0] $end
+$var reg 16 % i3 [15:0] $end
+$var reg 2 & sel [1:0] $end
+$scope module uut $end
+$var wire 16 ' i0 [15:0] $end
+$var wire 16 ( i1 [15:0] $end
+$var wire 16 ) i2 [15:0] $end
+$var wire 16 * i3 [15:0] $end
+$var wire 2 + sel [1:0] $end
+$var reg 16 , out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+bx +
+b1100010101 *
+b1011001 )
+b100 (
+b101 '
+bx &
+b1100010101 %
+b1011001 $
+b100 #
+b101 "
+b0 !
+$end
+#5000
+b101 !
+b101 ,
+b0 &
+b0 +
+#10000
+b100 !
+b100 ,
+b1 &
+b1 +
+#15000
+b1011001 !
+b1011001 ,
+b10 &
+b10 +
+#20000
+b1100010101 !
+b1100010101 ,
+b11 &
+b11 +
+#25000
